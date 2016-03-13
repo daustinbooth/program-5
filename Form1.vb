@@ -7,7 +7,6 @@ Public Class Form1
     'IT102
     '2/20/16
     'Program #5
-    'testing
 
     'This program simulates a gambling game. After the user presses the "Roll Me" button, the program generates 
     'random numbers which are stored in a list. The elements of the list are used to define what picuture appears in which picture box
@@ -61,45 +60,46 @@ End Class
 'Next
 
 
-'Select Case dice1
-'    Case 1
-'        Picbox1.Image = Image.FromFile("DieSide1.gif")
-'    Case 2
-'        Picbox1.Image = Image.FromFile("DieSide2.gif")
-'    Case 3
-'        Picbox1.Image = Image.FromFile("DieSide3.gif")
-'    Case 4
-'        Picbox1.Image = Image.FromFile("DieSide4.gif")
-'    Case 5
-'        Picbox1.Image = Image.FromFile("DieSide5.gif")
-'    Case 6
-'        Picbox1.Image = Image.FromFile("DieSide6.gif")
-'End Select
-'Select Case dice2
-'    Case 1
-'        PicBox2.Image = Image.FromFile("DieSide1.gif")
-'    Case 2
-'        PicBox2.Image = Image.FromFile("DieSide2.gif")
-'    Case 3
-'        PicBox2.Image = Image.FromFile("DieSide3.gif")
-'    Case 4
-'        PicBox2.Image = Image.FromFile("DieSide4.gif")
-'    Case 5
-'        PicBox2.Image = Image.FromFile("DieSide5.gif")
-'    Case 6
-'        PicBox2.Image = Image.FromFile("DieSide6.gif")
-'End Select
-'Select Case dice3
-'    Case 1
-'        PicBox3.Image = Image.FromFile("DieSide1.gif")
-'    Case 2
-'        PicBox3.Image = Image.FromFile("DieSide2.gif")
-'    Case 3
-'        PicBox3.Image = Image.FromFile("DieSide3.gif")
-'    Case 4
-'        PicBox3.Image = Image.FromFile("DieSide4.gif")
-'    Case 5
-'        PicBox3.Image = Image.FromFile("DieSide5.gif")
-'    Case 6
-'        PicBox3.Image = Image.FromFile("DieSide6.gif")
-'End Select
+
+Select Case dice1
+    Case 1
+        Picbox1.Image = Image.FromFile("DieSide1.gif")
+    Case 2
+        Picbox1.Image = Image.FromFile("DieSide2.gif")
+    Case 3
+        Picbox1.Image = Image.FromFile("DieSide3.gif")
+    Case 4
+        Picbox1.Image = Image.FromFile("DieSide4.gif")
+    Case 5
+        Picbox1.Image = Image.FromFile("DieSide5.gif")
+    Case 6
+        Picbox1.Image = Image.FromFile("DieSide6.gif")
+End Select
+Select Case dice2
+    Case 1
+        PicBox2.Image = Image.FromFile("DieSide1.gif")
+    Case 2
+        PicBox2.Image = Image.FromFile("DieSide2.gif")
+    Case 3
+        PicBox2.Image = Image.FromFile("DieSide3.gif")
+    Case 4
+        PicBox2.Image = Image.FromFile("DieSide4.gif")
+    Case 5
+        PicBox2.Image = Image.FromFile("DieSide5.gif")
+    Case 6
+        PicBox2.Image = Image.FromFile("DieSide6.gif")
+End Select
+Select Case dice3
+    Case 1
+        PicBox3.Image = Image.FromFile("DieSide1.gif")
+    Case 2
+        PicBox3.Image = Image.FromFile("DieSide2.gif")
+    Case 3
+        PicBox3.Image = Image.FromFile("DieSide3.gif")
+    Case 4
+        PicBox3.Image = Image.FromFile("DieSide4.gif")
+    Case 5
+        PicBox3.Image = Image.FromFile("DieSide5.gif")
+    Case 6
+        PicBox3.Image = Image.FromFile("DieSide6.gif")
+End Select
